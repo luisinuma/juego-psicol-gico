@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente Maestra: Desafío Psicológico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="start-screen">
+            <h1>Bienvenidos a Mente Maestra</h1>
+            <button id="start-btn">Iniciar Juego</button>
+        </div>
+        <div id="question-screen" class="hidden">
+            <div id="progress-bar"></div>
+            <h2 id="level-indicator"></h2>
+            <h2 id="question"></h2>
+            <div id="choices"></div>
+        </div>
+        <div id="result-screen" class="hidden">
+            <h2 id="result-message"></h2>
+            <p id="result-description"></p>
+            <button id="restart-btn">Jugar de Nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
